@@ -26,10 +26,6 @@ body > .content { overflow:hidden; }
 
 #sr-header-area a { color:#54708b; }
 body.res-nightmode #header { border-color: #DDF; }
-.tabmenu { font-size:11px; }
-#header .tabmenu { border: 1px solid #5F99CF; border-bottom: 0; }
-body.res-nightmode #header .tabmenu { border-color: #DDF; }
-#header .tabmenu li { margin: 0; }
 body.res-nightmode #header .tabmenu li:not(.selected) a { color: #346; }
 #header .tabmenu li.selected a { border: 0; border-bottom: 1px solid #FFF; }
 #header .tabmenu li:not(.selected):hover a { background-color: #449EF8; color: #FFF; }
