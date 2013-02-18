@@ -224,7 +224,7 @@ body.res-nightmode .link.last-clicked { border-color: #666; }
 
 /* main comments */
 .commentarea { margin-top:10px; }
-.link.self .usertext-body .md p,.comment .usertext-body .md p { line-height:17px; }
+.link.self .usertext-body .md p,.comment .usertext-body .md p { line-height:1.3em; }
 .link .usertext .md { padding:5px 10px; }
 .panestack-title { border:none; margin:0; padding:0; }
 .panestack-title .title { float:left; font-size:11px; color:#888; margin:0; }
