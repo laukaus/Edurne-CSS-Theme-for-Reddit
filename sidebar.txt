@@ -1,10 +1,10 @@
-#v5.1
+#v5.3
 
 ##### [](#h5-yellow)
 > # [What is it?](#icon-lightbulb)
 > This is a CSS theme to style subreddits. It was made for two purposes: to make a subreddit more new-user-friendly, and to give more visibility to the submit button. 
 
-> **************
+> ---
 
 > It's for people who want a clean, custom CSS theme without having to play too much with code.
 
@@ -24,13 +24,13 @@ The idea was to make a theme that doesn't clash with the frontpage, but tried to
 
 > /r/AskModerators, /r/InternetAMA, /r/techsupport, /r/redditores, /r/patientgamers, /r/bans, /r/spain, /r/es, /r/FreewareIndex, /r/vaultshow, /r/DeltaMinecraft, /r/weather
 
-*********************
+---
 
 [Get the Theme from Github!](https://github.com/rolmos/Edurne-CSS-Theme-for-Reddit/#btn)
 
-********************************
+---
 
-********************************
+---
 
 # How to use the sidebar code:
 
@@ -38,11 +38,11 @@ The idea was to make a theme that doesn't clash with the frontpage, but tried to
 
 > Any text that's continuously blockquoted shares the same box.
 
-*****************************
+---
 
 > Separate blockquote groups with a horizontal line to make them different boxes.
 
-*****************************
+---
 
 ###### [](#h6-red)
 > You can change a box's color by placing a specific empty header type right before making the blockquote.
@@ -53,7 +53,7 @@ The idea was to make a theme that doesn't clash with the frontpage, but tried to
 
 >`> This is a box.`
 
-********************************
+---
 
 ##### [](#h5-yellow)
 > To make a **yellow** box, use an empty **H5** element as we did before:
@@ -62,7 +62,7 @@ The idea was to make a theme that doesn't clash with the frontpage, but tried to
 
 >`> This is a box`
 
-********************************
+---
 
 #### [](#h4-green)
 > To make a **green** box, use an empty **H4** element as we did before:
@@ -72,7 +72,7 @@ The idea was to make a theme that doesn't clash with the frontpage, but tried to
 >`> This is a box`
 
 
-*******************************
+---
 
 > #This is a title
 > This box starts with an H1 element inside of it that serves as its header. Notice the indentation of all text contained in it.  
@@ -81,7 +81,7 @@ The idea was to make a theme that doesn't clash with the frontpage, but tried to
 
 >`> This is a box`
 
-**************************
+---
 
 ###### [](#h6-red)
 > #[Title with an icon](#icon-exclamation)
