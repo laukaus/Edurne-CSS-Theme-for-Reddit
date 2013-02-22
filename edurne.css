@@ -184,7 +184,7 @@ body.res-nightmode .sidebox.submit:hover .nub { border-left-color: #444; }
 .disabled .morelink a,.disabled .morelink a:hover { cursor:default; color:#AAA; }
 .morelink:hover { background-color:#56a6f7; border-color:#56a6f7; }
 .disabled .morelink,.disabled .morelink:hover { background:#f5f5f5; border-color:#f5f5f5; }
-.disabled .morelink .nub,.disabled .morelink:hover .nub { background:url(%%sprites-05%%) 0 0 no-repeat transparent; }
+.disabled .morelink .nub,.disabled .morelink:hover .nub { background:url(%%sprites-05%%) 0 0 no-repeat transparent; border-color:#f5f5f5; }
 
 /* CONTENT */
 
