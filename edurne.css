@@ -502,7 +502,7 @@ body.res-nightmode a[href='#s']:hover::after, body.res-nightmode a[href='#s']:ac
 }
 
 /* sidebar icons */
-.side a[href*='#icon-'] { color:#000 !important; cursor:default; }
+.side a[href*='#icon-'] { color:#000; cursor:default; }
 .side a[href*='#icon-']:hover { text-decoration:none; }
 .side a[href*='#icon-']::before {
     display:inline-block;
