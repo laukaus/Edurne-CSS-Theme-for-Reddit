@@ -35,7 +35,7 @@ body.res-nightmode #header .tabmenu li:not(.selected):hover a { background-color
 .pagename { margin-right:25px; font-weight:bold; font-variant:normal; font-size:18px; }
 body.res-nightmode .pagename a { font-size: 18px !important; }
 #sr-header-area .dropdown.srdrop, #sr-header-area#srLeftContainer { padding-left:21px; }
-#sr-more-link, #header #sr-header-area #RESShortcutsEditContainer, #header #sr-header-area #RESShortcutsRight, #header #sr-header-area #RESShortcutsLeft, 
+#sr-more-link, #header #sr-header-area #RESShortcutsEditContainer, #header #sr-header-area #RESShortcutsRight, #header #sr-header-area #RESShortcutsLeft,
 #header #sr-header-area #RESShortcutsAdd, #header #sr-header-area #RESShortcutsTrash { background-color:#c6daed; }
 body.res-nightmode #sr-header-area, body.res-nightmode #sr-more-link { background-color: #c6daed !important; }
 #sr-header-area #RESShortcutsEditContainer, #sr-more-link { border-right:20px solid #c6daed; font-weight:bolder; }
@@ -241,7 +241,7 @@ body.res-nightmode .usertext .help-toggle a { color:#444 !important; }
 .link .usertext .md { background-color:#FFF; border:1px solid #EAEAEA; }
 .entry .buttons li a { font-family:verdana, arial, sans-serif; }
 
-.usertext .help-toggle {
+.usertext .help-toggle, .RESBigEditorPop.blueButton {
     background-color:#999;
     border:none;
     color:#FFF;
@@ -250,6 +250,18 @@ body.res-nightmode .usertext .help-toggle a { color:#444 !important; }
     font-size:13px;
 }
 
+.RESBigEditorPop.blueButton {
+    margin:5px 5px 5px 5px !important;
+    -moz-border-radius:0px;
+    -webkit-border-radius:0px;
+    -o-border-radius:0px;
+    -ms-border-radius:0px;
+    -khtml-border-radius:0px;
+    border-radius:0px;
+
+}
+
+#RESShortcutsSort { background-color:transparent !important; }
 /* MODERATOR SPECIFIC */
 
 /* stylesheet tweaks */
@@ -429,12 +441,12 @@ body.res-nightmode .md h6 + ul li:nth-child(odd), body.res-nightmode .md h6 + ol
     margin:10px 0px;
 }
 
-body.res-nightmode .btn, body.res-nightmode button, 
+body.res-nightmode .btn, body.res-nightmode button,
 body.res-nightmode .side a[href*='/#btn'] { color: #444 !important; background-color: #CCC !important; }
 .btn a { color:#FFF; }
 body.res-nightmode .btn a { color: #444 !important; }
 .btn:hover,button:hover,.side a[href*='/#btn']:hover { background-color:#56a6f7; border-color:#56a6f7; }
-body.res-nightmode .btn:hover, body.res-nightmode button:hover, 
+body.res-nightmode .btn:hover, body.res-nightmode button:hover,
 body.res-nightmode .side a[href*='/#btn']:hover { background-color:#DDD !important; border-color:#DDD; }
 
 /* code styling */
@@ -527,5 +539,6 @@ body.res-nightmode a[href='#s']:hover::after, body.res-nightmode a[href='#s']:ac
 .side a[href='#icon-time']::before          {background-position: -73px -70px;}
 .side a[href='#icon-bell']::before          {background-position: -35px -32px;}
 .side a[href='#icon-eye']::before           {background-position: -16px -89px;}
+
 
 /* SUBREDDIT-SPECIFIC STYLES - add you own styles below without modifying the code above.*/
