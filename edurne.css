@@ -241,13 +241,14 @@ body.res-nightmode .usertext .help-toggle a { color:#444 !important; }
 .link .usertext .md { background-color:#FFF; border:1px solid #EAEAEA; }
 .entry .buttons li a { font-family:verdana, arial, sans-serif; }
 
-.usertext .help-toggle, .RESBigEditorPop.blueButton {
+.usertext .help-toggle, .bottom-area .RESBigEditorPop.blueButton, .usertext .bottom-area .reddiquette {
     background-color:#999;
     border:none;
     color:#FFF;
     padding:6px;
-    margin:5px 0;
+    margin:5px 3px;
     font-size:13px;
+    border-radius: 0;
 }
 
 .RESBigEditorPop.blueButton {
