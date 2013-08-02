@@ -1,4 +1,4 @@
-/* ==Edurne Reddit CSS Theme v5.5 - (http://www.reddit.com/r/edurne/)== */
+/* ==Edurne Reddit CSS Theme v5.6 - (http://www.reddit.com/r/edurne/)== */
 
 /* GENERAL */
 body { position:relative; font-family:arial, helvetica, sans-serif; }
@@ -233,6 +233,7 @@ body.res-nightmode .link.last-clicked { border-color: #666; }
 .usertext-edit { width:auto; }
 .usertext-edit textarea { width:430px; padding:10px; }
 .usertext .bottom-area { width:450px; }
+.comment .usertext .bottom-area { width:100%; }
 .usertext button { margin:5px 5px 10px 0; border:none; min-width:70px; }
 body.res-nightmode .usertext .help-toggle { background-color:#DDD; }
 .usertext .help-toggle a { color:#FFF; }
