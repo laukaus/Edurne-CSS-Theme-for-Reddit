@@ -242,25 +242,19 @@ body.res-nightmode .usertext .help-toggle a { color:#444 !important; }
 .link .usertext .md { background-color:#FFF; border:1px solid #EAEAEA; }
 .entry .buttons li a { font-family:verdana, arial, sans-serif; }
 
-.usertext .help-toggle, .bottom-area .RESBigEditorPop.blueButton, .usertext .bottom-area .reddiquette {
+.usertext .help-toggle, .res-nightmode button.RESBigEditorPop, .usertext .bottom-area .reddiquette {
     background-color:#999;
     border:none;
     color:#FFF;
     padding:6px;
     margin:5px 3px;
     font-size:13px;
-    border-radius: 0;
-}
-
-.RESBigEditorPop.blueButton {
-    margin:5px 5px 5px 5px !important;
     -moz-border-radius:0px;
     -webkit-border-radius:0px;
     -o-border-radius:0px;
     -ms-border-radius:0px;
     -khtml-border-radius:0px;
-    border-radius:0px;
-
+    border-radius: 0;
 }
 
 #RESShortcutsSort { background-color:transparent !important; }
