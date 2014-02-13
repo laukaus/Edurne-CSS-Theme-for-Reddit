@@ -1,4 +1,4 @@
-/* ==Edurne Reddit CSS Theme v5.6 - (http://www.reddit.com/r/edurne/)== */
+/* ==Edurne Reddit CSS Theme v5.6 - (http://www.reddit.com/r/edurne/)==  */
 
 /* GENERAL */
 body { position:relative; font-family:arial, helvetica, sans-serif; }
@@ -16,14 +16,26 @@ body > .content { overflow:hidden; }
 }
 
 /* HEADER */
+#header {
+ border-bottom: 5px solid #4A6896 !important ;
+}
 #sr-header-area {
-    background-color:#c6daed;
+    background-color:#FFF;
+    color:#111;
     text-transform:lowercase;
     border-bottom:3px solid #c2d6e9;
     font-size:100%;
     font-family:Verdana, arial, sans-serif;
 }
+#header-img {
+margin-bottom:0px !important;
+}
+/* a-elementti headerin vieressä */
 
+span.hover.pagename.redditname a {
+   color: #FFF !important ; 
+   font-weight: bold ;
+}
 #sr-header-area a { color:#54708b; }
 body.res-nightmode #header { border-color: #DDF; }
 body.res-nightmode #header .tabmenu li:not(.selected) a { color: #346; }
@@ -74,7 +86,11 @@ body.res-nightmode #header-bottom-right { background-color: #DEEAF6 !important; 
     -webkit-border-bottom-left-radius:0;
     -webkit-border-bottom-right-radius:0;
 }
+#header-bottom-left  {
 
+background: #002f6d ;	
+color: #FEF  !important;
+}
 /* SIDEBAR */
 
 /* search */
