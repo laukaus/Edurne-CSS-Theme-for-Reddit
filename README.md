@@ -1,4 +1,4 @@
-Edurne-CSS-Theme-for-Reddit
+rsuomi-css-edurne-fork 
 ===========================
 
-A CSS theme for styling subreddits in Reddit.com
+Fork of the Edurne 5.6 CSS-theme for /r/Suomi
