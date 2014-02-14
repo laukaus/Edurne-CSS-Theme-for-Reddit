@@ -1,4 +1,6 @@
-/* ==Edurne Reddit CSS Theme v5.6 - (http://www.reddit.com/r/edurne/)== */
+/* ==Edurne Reddit CSS Theme v5.6 - (http://www.reddit.com/r/edurne/)== 
+edited for /r/suomi by /u/laukaus
+*/
 
 /* GENERAL */
 body { position:relative; font-family:arial, helvetica, sans-serif; }
@@ -39,15 +41,36 @@ span.hover.pagename.redditname a {
 
 /* Flairit */
 
+
+div.thing
+{
+border-left: 3px solid #EAEAEA;
+}
+
+.linkflair {
+   background-color: #EAEAEA ;
+}
+
 .linkflair-flair-metapost .linkflairlabel {
    background-color: #aaF !important;
 }
 
+.linkflair-flair-metapost {
+  border-left: 3px solid #aaF !important;
+}
+
+
 .linkflair-flair-politiikka .linkflairlabel {
    background-color: #FFA500 !important;
 }
+.linkflair-flair-politiikka {
+   border-left: 3px solid #FFA500 !important;
+}
 .linkflair-flair-yhteiso .linkflairlabel {
    background-color: #43C6DB !important;
+   color: #000;
+   font-weight: bold ;
+
 }
 #FFA500
 /* Tabit */
