@@ -1,6 +1,4 @@
-/* ==Edurne Reddit CSS Theme v5.6 - (http://www.reddit.com/r/edurne/)== 
-edited for /r/suomi by /u/laukaus
-*/
+/* ==Edurne Reddit CSS Theme v5.6 - (http://www.reddit.com/r/edurne/)== */
 
 /* GENERAL */
 body { position:relative; font-family:arial, helvetica, sans-serif; }
@@ -49,8 +47,11 @@ border-left: 3px solid #EAEAEA;
 
 .linkflair {
    background-color: #EAEAEA ;
-}
 
+}
+.linkflair .linkflairlabel {
+   font-weight: bold ;
+}
 .linkflair-flair-metapost .linkflairlabel {
    background-color: #aaF !important;
 }
@@ -72,7 +73,142 @@ border-left: 3px solid #EAEAEA;
    font-weight: bold ;
 
 }
-#FFA500
+.linkflair-flair-yhteiso {
+ border-left: 3px solid #43C6DB !important;
+}
+.linkflair-flair-pulu .linkflairlabel {
+   background-color: yellow!important;
+   color: #000;
+   font-weight: bold ;
+
+}
+.linkflair-flair-pulu {
+ border-left: 3px solid yellow !important;
+}
+
+.linkflair-flair-uutiset .linkflairlabel {
+   background-color: #002f6d !important;
+   color: #FFF;
+}
+.linkflair-flair-uutiset {
+ border-left: 3px solid #002f6d !important;
+}
+
+.linkflair-flair-iama .linkflairlabel {
+   background-color: #F20 !important;
+   color: #FFF;
+}
+.linkflair-flair-iama {
+ border-left: 3px solid #F20 !important;
+}
+
+.linkflair-flair-keskustelu .linkflairlabel {
+   background-color: #0A0 !important;
+   color: #FFF;
+}
+.linkflair-flair-keskustelu {
+ border-left: 3px solid #0A0 !important;
+}
+
+.linkflair-flair-suomalaisuus .linkflairlabel {
+   background-color: #11B !important;
+   color: #FFF;
+}
+.linkflair-flair-suomalaisuus {
+ border-left: 3px solid #11B !important;
+}
+
+.linkflair-flair-tunarit .linkflairlabel {
+   background-color: #A00 !important;
+   color: #FFF;
+}
+.linkflair-flair-tunarit {
+ border-left: 3px solid #A00 !important;
+}
+.linkflair-flair-blogi .linkflairlabel {
+   background-color: #DDD !important;
+   color: #111;
+}
+.linkflair-flair-blogi {
+ border-left: 3px solid #DDD !important;
+}
+
+
+
+/*Userflair v.1 test*/
+/*p.tagline {
+    height: 18px ;  baseline height for unflaired users TODO
+}*/
+span.flair {
+  padding-top:5px !important;
+  padding-right: 3px;
+}
+
+span.flair.flair-flair-pirkanmaa {
+   background: url(%%15px-Pirkanmaa%%) 1px 4px no-repeat !important ;
+   padding-left: 18px;
+   height: 18px ;
+}
+
+span.flair.flair-flair-uusimaa {
+   background: url(%%15px-Uusimaa%%) 1px 4px no-repeat !important ;
+   padding-left: 18px;
+   height: 18px ;
+}
+
+span.flair.flair-flair-satakunta {
+   background: url(%%15px-Satakunta%%) 1px 4px no-repeat !important ;
+   padding-left: 18px;
+   height: 18px ;
+}
+span.flair.flair-flair-etela-pohjanmaa {
+   background: url(%%15px-etelapohja%%) 1px 4px no-repeat !important ;
+   padding-left: 18px;
+   height: 22px ;
+}
+span.flair.flair-flair-pohjois-pohjanmaa {
+   background: url(%%15px-pohjois-pohjanmaa%%) 1px 4px no-repeat !important ;
+   padding-left: 18px;
+   height: 20px ;
+}
+
+span.flair.flair-flair-etela-karjala {
+   background: url(%%15px-etelakarjala%%) 1px 4px no-repeat !important ;
+   padding-left: 18px;
+   height: 20px ;
+}
+
+span.flair.flair-flair-varsinais-suomi {
+   background: url(%%15px-varsinais-suomi%%) 1px 4px no-repeat !important ;
+   padding-left: 18px;
+   height: 22px ;
+}
+
+span.flair.flair-flair-lappi {
+   background: url(%%15px-lappi%%) 1px 4px no-repeat !important ;
+   padding-left: 18px;
+   height: 22px ;
+}
+
+span.flair.flair-flair-keski-suomi {
+   background: url(%%15px-keskisuomi%%) 1px 4px no-repeat !important ;
+   padding-left: 18px;
+   height: 22px ;
+}
+
+span.flair.flair-flair-pohjois-savo {
+   background: url(%%15px-pohjois-savo%%) 1px 4px no-repeat !important ;
+   padding-left: 18px;
+   height: 22px ;
+}
+span.flair.flair-flair-paijat-hame {
+   background: url(%%15px-paijat-hame%%) 1px 4px no-repeat !important ;
+   padding-left: 18px;
+   height: 22px ;
+}
+
+
+
 /* Tabit */
 
 .tabmenu li a {
