@@ -1,4 +1,6 @@
-/* ==Edurne Reddit CSS Theme v5.6 - (http://www.reddit.com/r/edurne/)== */
+/* ==Edurne Reddit CSS Theme v5.6 - (http://www.reddit.com/r/edurne/)== 
+    forked for /r/Suomi by /u/laukaus
+*/
 
 /* GENERAL */
 body { position:relative; font-family:arial, helvetica, sans-serif; }
@@ -131,6 +133,13 @@ border-left: 3px solid #EAEAEA;
 }
 .linkflair-flair-blogi {
  border-left: 3px solid #DDD !important;
+}
+.linkflair-flair-huumori .linkflairlabel {
+   background-color: #CCFF66 !important;
+   color: #111;
+}
+.linkflair-flair-huumori{
+ border-left: 3px solid #CCFF66 !important;
 }
 
 
@@ -748,5 +757,3 @@ body.res-nightmode a[href='#s']:hover::after, body.res-nightmode a[href='#s']:ac
 .side a[href='#icon-bell']::before          {background-position: -35px -32px;}
 .side a[href='#icon-eye']::before           {background-position: -16px -89px;}
 
-
-/* SUBREDDIT-SPECIFIC STYLES - add you own styles below without modifying the code above.*/
