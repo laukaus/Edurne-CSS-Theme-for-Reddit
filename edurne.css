@@ -17,6 +17,22 @@ body > .content { overflow:hidden; }
     border-radius:2px;
 }
 
+/* TODO, downvote hiding by thing id.
+.pagename a {
+    font-size: 0;
+    content: '';
+}
+.pagename a:after {
+    content: "headerteksti!";
+    font-size: medium;
+}
+.sitetable[id$="24cjd7"] .down { display: none; }
+
+
+!*/
+.sitetable[id$="24j62r"] .down { display: none; }
+.sitetable[id$="254aqu"] .down { display: none; }
+
 /* HEADER */
 #header {
  border-bottom: 5px solid #4A6896 !important ;
@@ -756,4 +772,3 @@ body.res-nightmode a[href='#s']:hover::after, body.res-nightmode a[href='#s']:ac
 .side a[href='#icon-time']::before          {background-position: -73px -70px;}
 .side a[href='#icon-bell']::before          {background-position: -35px -32px;}
 .side a[href='#icon-eye']::before           {background-position: -16px -89px;}
-
